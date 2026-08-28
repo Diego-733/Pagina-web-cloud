@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Registrar Producto</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<script src="script.js"></script>
+<body>
+
+    <div class="contenedor">
+
+        <h1>Registrar Producto</h1>
+
+        <form id="formProducto">
+
+            <label for="id">ID Producto</label>
+            <input
+                type="number"
+                id="id"
+                placeholder="Ej: 101"
+                required
+            >
+
+            <label for="nombre">Nombre</label>
+            <input
+                type="text"
+                id="nombre"
+                placeholder="Ej: Notebook"
+                required
+            >
+
+            <label for="descripcion">Descripción</label>
+            <textarea
+                id="descripcion"
+                placeholder="Descripción del producto"
+                required
+            ></textarea>
+
+            <label for="precio">Precio</label>
+            <input
+                type="number"
+                id="precio"
+                placeholder="Ej: 599990"
+                required
+            >
+
+            <button type="submit">
+                Guardar Producto
+            </button>
+
+        </form>
+
+        <p id="mensaje"></p>
+
+        <div class="botones">
+
+            <a href="productos.html" class="boton">
+                Ver Productos
+            </a>
+
+            <a href="index.html" class="boton secundario">
+                Volver al inicio
+            </a>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
